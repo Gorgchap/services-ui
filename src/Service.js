@@ -26,7 +26,7 @@ function Service(props) {
             <Card.Text style={{ margin: 0 }}>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
             </Card.Text>
-            <Button onClick={onClick} style={{ display: 'block', margin: '0 auto', width: '25%' }} variant="primary">
+            <Button onClick={onClick} style={{ display: 'block', margin: '.75rem auto 0', width: '35%' }} variant="primary">
                 {isNotStarted ? 'Start' : 'Stop'}
             </Button>
         </Card.Body>
